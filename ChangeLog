@@ -1,0 +1,10 @@
+ChangeLog of JSch Agent Proxy
+====================================================================
+Last modified: Wed Sep 26 04:55:46 CEST 2018
+
+Changes since version 0.1.0:
+- forked and moved packages below net.agilhard
+- switched to Java 10 and partly added module-info.java
+- increased AGENT_MAX_MSGLEN in PageantConnector to 16384
+- moved packages to avoid package clash between modules
+	
